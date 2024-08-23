@@ -64,3 +64,24 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+#Installation
+
+step-1
+composer create-project laravel/laravel:^10.0 teacher-portal
+
+stpe-2
+create database
+
+add like this in .env file
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=teacher_portal
+DB_USERNAME=root
+DB_PASSWORD=
+
+stpe-3
+php artisan migrate
