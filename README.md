@@ -85,3 +85,4 @@ DB_PASSWORD=
 
 stpe-3
 php artisan migrate
+
