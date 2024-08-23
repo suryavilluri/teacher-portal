@@ -70,7 +70,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 #Installation
 
 step-1
-composer create-project laravel/laravel:^10.0 teacher-portal
+https://github.com/suryavilluri/teacher-portal.git
 
 stpe-2
 create database
@@ -83,6 +83,16 @@ DB_DATABASE=teacher_portal
 DB_USERNAME=root
 DB_PASSWORD=
 
+import database in root directory file name is teacher_portal.sql
+
 stpe-3
 php artisan migrate
+
+credentails
+
+username : admin@gmail.com
+password : Admin@123
+
+username : tailwebs@gmail.com
+password : Tailwebs@123
 
